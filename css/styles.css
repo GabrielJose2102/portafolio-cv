@@ -1,0 +1,184 @@
+/*Fuete de l pagina*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+body {
+    color: #fff;
+    background: linear-gradient(90deg, #201b9d,#343d8d,#4f5475);
+}
+
+/*text white*/
+.txt-white {
+    color: #fff;
+}
+
+/*header-navbar*/
+
+.modify-navbar {
+    height: 4rem;
+}
+
+.container-modify {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:  0.2rem 0.4rem;
+    margin: 1rem;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar-nav ul {
+    position: relative;
+    margin-right: auto;
+}
+
+
+/*header networks*/
+.redes {
+    display: flex;
+    position: relative;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition: .5s;
+}
+
+.redes a :hover {
+    color: #4f88ed;
+}
+
+
+/*header links*/
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item .selected {
+    color: #4f88ed;
+}
+
+.navbar-nav .nav-item :hover {
+    color: #4f88ed;
+}
+
+
+/*header presentacion*/
+.header {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/FondoInicio.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.content-presentation {
+    height: 100%;
+    display: flex;
+    margin-top: -100px;
+}
+
+.presentation {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.presentation .welcome {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-left: 0.7rem;
+}
+
+
+.presentation h2 {
+    margin-left: 0.7rem;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    color: #4f88ed;
+}
+
+
+
+.presentation .description {
+    margin-left: 0.7rem;
+    max-width: 700px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-presentation {
+    margin: 0;
+    margin-top: 30px;
+}
+
+
+.presentation a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.presentation a:hover {
+    background-color: #4f88ed;
+    color: #fff;
+}
+
+.btn-cv {
+    background-color: #4f88ed;
+}
+
+.image-presentation {
+    max-width: 500px;
+    margin: auto;
+    margin-right: 80px;
+}
+
+.img-presentation {
+    width: 100%;
+    height: 27rem;
+    border: solid #fff 3px;
+    border-radius: 20px;
+}
+
+
+/*Summary description*/
+.content-summary {
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 10rem;
+    margin: auto;
+    top: -7.2rem;
+    border: solid #fff 3px;
+    border-radius: 20px;
+}
