@@ -3,7 +3,14 @@
 
 body {
     color: #fff;
-    background: linear-gradient(90deg, #201b9d,#343d8d,#4f5475);
+    /*background: linear-gradient(90deg, #201b9d,#343d8d,#4f5475);*/
+    /*background: linear-gradient(90deg, #6f36bc,#36174d);*/
+    /*background: linear-gradient(0deg, #11053b,#1e0b63,#11053b);*/
+    /*background: linear-gradient(90deg, #000000,#000040);*/
+    /*background: linear-gradient(90deg, #000040,#000000);*/
+    background: linear-gradient(90deg, #0b0d0f,#1a1d21,#292e36);
+    background: linear-gradient(90deg, #354e69,#000000);
+    background: linear-gradient(90deg, #000000,#354e69);
 }
 
 /*text white*/
@@ -36,10 +43,24 @@ body {
     margin: auto;
 }
 
+.content-link {
+    position: relative;
+    width: 25%;
+    justify-items: baseline;
+    margin-left: 25%;
+}
+
+.navbar-nav {
+    justify-content: center;
+    gap: 20px;
+}
+
+
 .navbar-nav ul {
     position: relative;
     margin-right: auto;
 }
+
 
 
 /*header networks*/
@@ -79,7 +100,7 @@ body {
 
 /*header presentacion*/
 .header {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/FondoInicio.png");
+
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -170,15 +191,32 @@ body {
 
 /*Summary description*/
 .content-summary {
-    background: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 10rem;
     margin: auto;
     top: -7.2rem;
     border: solid #fff 3px;
     border-radius: 20px;
+}
+
+.info-summary {
+    width: 150px;
+    padding-top: 2rem;
+}
+
+.icon-summary {
+    font-size: 3rem;
+}
+
+.title-summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description-summary {
+    font-size: 1rem;
 }

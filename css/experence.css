@@ -1,0 +1,43 @@
+.experence {
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.h2-experence {
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.content-project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.title-content {
+    width: 40%;
+    display: flex;
+}
+
+.img-project {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.text-title {
+    margin-top: 1rem;
+}
+
+.description-content {
+    width: 50%;
+}

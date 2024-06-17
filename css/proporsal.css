@@ -1,0 +1,47 @@
+hr {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #aaa;
+}
+
+.proporsal {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.text-proporsal {
+    margin-left: 4rem;
+}
+
+.text-proporsal h3 {
+    font-size: 3rem;
+}
+
+.text-proporsal p {
+    font-size: 2rem;
+    color: #aaa;
+}
+
+.btn-proporsal {
+    margin-right: 4rem;
+}
+
+.btn-proporsal a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;;
+}
+
+.btn-proporsal a:hover {
+    background-color: #4f88ed;
+    color: #fff;
+}
