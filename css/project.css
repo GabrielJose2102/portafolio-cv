@@ -1,0 +1,75 @@
+.project {
+    width: 90%;
+    margin: auto;
+}
+
+.title-project {
+    color: #354e69;
+    font-size: 4rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.content-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.article-project {
+    
+}
+
+.project-img {
+    max-width: 90%;
+    height: 15rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 1rem;
+}
+
+.description-project {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.title-article {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.icon-title i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.subtitle {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer-project {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.tecnology {
+    width: 30%;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 9999px;
+}
+

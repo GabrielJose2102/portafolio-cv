@@ -7,9 +7,14 @@ hr {
 }
 
 .proporsal {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-bottom: 5rem;
+    padding: 3rem 1.5rem;
+    border: 1px solid #aaa;
+    border-radius: 1.5rem;
 }
 
 .text-proporsal {
@@ -26,7 +31,7 @@ hr {
 }
 
 .btn-proporsal {
-    margin-right: 4rem;
+    margin: auto;
 }
 
 .btn-proporsal a {
@@ -42,6 +47,6 @@ hr {
 }
 
 .btn-proporsal a:hover {
-    background-color: #4f88ed;
+    background-color: #000;
     color: #fff;
 }
