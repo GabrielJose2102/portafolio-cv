@@ -1,6 +1,6 @@
 .title-tecnology {
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 2.5rem;
 }
 
 .tecnologies {
@@ -9,6 +9,7 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .card-tecnology {

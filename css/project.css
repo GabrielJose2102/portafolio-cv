@@ -18,7 +18,9 @@
 }
 
 .article-project {
-    
+    border: 1px solid #354e69;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
 }
 
 .project-img {
@@ -44,11 +46,21 @@
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.title-article:hover {
+    color: #354e69;
 }
 
 .icon-title i {
     font-size: 2rem;
     color: #fff;
+    transition: 0.5s;
+}
+
+.icon-title i:hover {
+    color: #354e69;
 }
 
 .subtitle {
@@ -67,6 +79,7 @@
 
 .tecnology {
     width: 30%;
+    font-size: 0.9rem;
     text-align: center;
     padding: 5px 10px;
     border: 1px solid #aaa;

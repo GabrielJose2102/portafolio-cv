@@ -3,7 +3,7 @@
 
 body {
     color: #fff;
-    background: linear-gradient(90deg, #000000,#354e69);
+    background: linear-gradient(90deg, #000000,#233446);
 }
 
 /*text white*/
@@ -96,7 +96,7 @@ body {
 
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 60vh;
 }
 
 .content-presentation {
@@ -172,6 +172,7 @@ body {
     max-width: 500px;
     margin: auto;
     margin-right: 80px;
+    margin-top: 10rem;
 }
 
 .img-presentation {
@@ -179,6 +180,7 @@ body {
     height: 27rem;
     border: solid #fff 3px;
     border-radius: 20px;
+    background-color: #fff;
 }
 
 
@@ -187,11 +189,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
     width: 90%;
     height: 10rem;
     margin: auto;
-    top: -7.2rem;
+    margin-top: 10rem;
     border: solid #fff 3px;
     border-radius: 20px;
 }
@@ -203,13 +204,16 @@ body {
 
 .icon-summary {
     font-size: 3rem;
+    color: #eee;
 }
 
 .title-summary {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #eee;
 }
 
 .description-summary {
     font-size: 1rem;
+    color: #eee;
 }
